@@ -1,0 +1,9 @@
+Student ID: 230103101
+Logical cores: 10
+Physical cores / worker processes: 10
+Matrix: 8000 x 8000, dtype=float64, seed=230103101
+Mode A (Row-Major) runtime: 122.04 ms
+Mode B (Column-Major / Strided) runtime: 88.55 ms
+Cache penalty factor (Mode B / Mode A): 0.726x
+Mode A sum: 32000250.390761990100
+Mode B sum: 32000250.390761986375
