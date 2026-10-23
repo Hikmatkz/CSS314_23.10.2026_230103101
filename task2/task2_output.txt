@@ -1,0 +1,10 @@
+Student ID: 230103101
+Threads: 4
+Sample points per run: 40,000,000
+Shared PRNG: Computed pi = 3.141527400000
+Shared PRNG: Absolute error = 0.000065253590
+Shared PRNG: Wall time = 7492.24 ms
+Independent PRNG: Computed pi = 3.141695300000
+Independent PRNG: Absolute error = 0.000102646410
+Independent PRNG: Wall time = 4316.01 ms
+Speedup factor (shared time / independent time): 1.736x

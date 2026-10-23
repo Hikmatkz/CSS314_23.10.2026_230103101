@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
-"""
-Task 1 — Row-Major vs. Column-Major Parallel Cache Traversal
 
-Usage:
-    python3 task1.py YOUR_STUDENT_ID
-
-Requirements:
-    python3 -m pip install numpy psutil
-"""
 import os
 import sys
 import time
