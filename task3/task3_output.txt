@@ -1,0 +1,10 @@
+Student ID: 230103101
+Array size: 2,000,000
+Threads: 4
+Seed: 230103101
+Serial Time (ms): 197.64
+Parallel Time (ms): 4.25
+Speedup: 46.499x
+Verification Status: PASS
+Serial final prefix: 11001790
+Parallel final prefix: 11001790
