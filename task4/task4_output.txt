@@ -1,0 +1,14 @@
+TASK 4 — Host-to-Device Transfer Penalty / CPU IPC Overhead
+Path A: Multiprocessing Pipe with Pickle serialization
+Path B: Shared memory
+Measurements are medians of 3 runs.
+
+           N   Size (MiB)     Path A (ms)     Path B (ms)      Speedup
+------------------------------------------------------------------------
+     100,000         0.76          73.594          80.614        0.91x
+   1,000,000         7.63          87.779          75.867        1.16x
+  10,000,000        76.29         173.912          83.075        2.09x
+
+Path A includes serialization, IPC transfer, and deserialization.
+Path B includes shared-memory allocation, copying, and synchronization.
+Results depend on hardware, operating system, and process scheduling.
