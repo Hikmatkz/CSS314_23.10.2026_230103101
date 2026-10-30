@@ -115,6 +115,7 @@ def main():
         "kernel": "5-point 2D stencil",
         "flops_per_output_cell": 5,
         "conservative_bytes_per_output_cell": 48,
+        "arithmetic_intensity": ai,
         "arithmetic_intensity_flops_per_byte": ai,
         "cache_sizes_bytes": cache,
         "peak_memory_bandwidth_bytes_per_second": None,

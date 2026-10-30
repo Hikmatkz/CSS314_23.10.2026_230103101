@@ -1,4 +1,20 @@
 {
+  "cpu_model": "Apple M1 Pro",
+  "microarchitecture": "Not reliably exposed by standard Python",
+  "base_frequency_mhz": null,
+  "physical_cores": 10,
+  "logical_threads": 10,
+  "smt_or_hyperthreading_detected": false,
+  "L1_data_cache_bytes": null,
+  "L2_cache_bytes": null,
+  "L3_cache_bytes": null,
+  "cache_line_bytes": 64,
+  "os_system": "Darwin",
+  "os_release": "25.3.0",
+  "kernel_version": "25.3.0",
+  "python_implementation": "CPython",
+  "python_version": "3.13.7",
+  "python_executable": "/Users/kanalbekov/Desktop/2310css/.venv/bin/python",
   "cpu": {
     "model": "Apple M1 Pro",
     "microarchitecture": "Not reliably exposed by standard Python",
@@ -26,6 +42,6 @@
   "python": {
     "implementation": "CPython",
     "version": "3.13.7",
-    "executable": "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3"
+    "executable": "/Users/kanalbekov/Desktop/2310css/.venv/bin/python"
   }
 }

@@ -2,6 +2,7 @@
   "kernel": "5-point 2D stencil",
   "flops_per_output_cell": 5,
   "conservative_bytes_per_output_cell": 48,
+  "arithmetic_intensity": 0.10416666666666667,
   "arithmetic_intensity_flops_per_byte": 0.10416666666666667,
   "cache_sizes_bytes": {
     "L1_data": null,

@@ -1,0 +1,9 @@
+{
+  "matrix_dimension_M": 576,
+  "naive_time_s": 0.17402741700061597,
+  "interchanged_time_s": 0.029128958005458117,
+  "speedup_ijk_over_ikj": 5.974378382089984,
+  "max_absolute_error": 0.0,
+  "numerically_equal_at_1e-12": true,
+  "numba_available": true
+}
