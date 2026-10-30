@@ -1,0 +1,31 @@
+{
+  "cpu": {
+    "model": "Apple M1 Pro",
+    "microarchitecture": "Not reliably exposed by standard Python",
+    "base_frequency_mhz": null,
+    "reported_frequency_hz": null
+  },
+  "topology": {
+    "physical_cores": 10,
+    "logical_threads": 10,
+    "smt_or_hyperthreading_detected": false,
+    "physical_core_count_is_estimate": true
+  },
+  "cache": {
+    "L1_data": null,
+    "L2": null,
+    "L3": null,
+    "cache_line_bytes": 64
+  },
+  "os": {
+    "system": "Darwin",
+    "release": "25.3.0",
+    "version": "Darwin Kernel Version 25.3.0: Wed Jan 28 20:54:46 PST 2026; root:xnu-12377.91.3~2/RELEASE_ARM64_T6000",
+    "kernel": "25.3.0"
+  },
+  "python": {
+    "implementation": "CPython",
+    "version": "3.13.7",
+    "executable": "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3"
+  }
+}
